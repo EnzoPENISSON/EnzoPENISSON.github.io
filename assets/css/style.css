@@ -557,6 +557,9 @@ input:checked + .slide-container .nav label { display: block; }
         justify-content: space-between;
         align-content: space-between;
     }
+    .send{
+        width: 35%;
+    }
 }
 
 .sec{
