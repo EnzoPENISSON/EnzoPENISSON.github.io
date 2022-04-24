@@ -543,6 +543,9 @@ input:checked + .slide-container .nav label { display: block; }
     .changer{
         color:white;
     }
+    .send{
+        width: 30%;
+    }
 }
 
 
