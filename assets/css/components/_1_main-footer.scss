@@ -1,0 +1,50 @@
+@use '../base' as *;
+
+/* -------------------------------- 
+
+File#: _1_main-footer
+Title: Main Footer
+Descr: Footer navigation
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+.main-footer {}
+
+.main-footer__logo {
+  display: inline-block;
+
+  svg, img {
+    display: block;
+  }
+}
+
+.main-footer__link {
+  color: var(--color-contrast-medium);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-contrast-high);
+    text-decoration: underline;
+  }
+}
+
+.main-footer__social {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-contrast-medium);
+
+  &:hover {
+    color: var(--color-contrast-high);
+  }
+
+  .icon {
+    font-size: 1.2em; // icon size
+  }
+
+  @include breakpoint(md) {
+    .icon {
+      font-size: 1em;
+    }
+  }
+}
