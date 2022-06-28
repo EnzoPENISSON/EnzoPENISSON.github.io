@@ -20,7 +20,7 @@
   <title>Ｐｏｒｔｆｏｌｉｏ</title>
 </head>
 <body>
-  <header class="f-header position-absolute bg-transparent js-f-header" data-theme="dark">
+  <header class="f-header position-absolute bg-transparent js-f-header bloquer" data-theme="dark">
     <div class="f-header__mobile-content container max-width-lg">
       <a href="index.html" class="f-header__logo changer">Ｐｏｒｔｆｏｌｉｏ</a>
   
@@ -57,9 +57,11 @@
             </a>
   
             <ul class="f-header__dropdown">
-              <li><a href="#Projets" onclick="frame('src/projet1.html');" class="f-header__dropdown-link">Projet 1</a></li>
-              <li><a href="#Projets" onclick="frame('src/projet2.html');" class="f-header__dropdown-link">Projet 2</a></li>
-              <li><a href="#Projets" onclick="frame('src/projet3.html');" class="f-header__dropdown-link">Projet 3</a></li>
+              <li><a href="#Projets"  class="f-header__dropdown-link">Space Invader</a></li>
+              <li><a href="#Projets"  class="f-header__dropdown-link">Wordpress</a></li>
+              <li><a href="#Projets"  class="f-header__dropdown-link">Rosée des Champs</a></li>
+              <li><a href="#Projets"  class="f-header__dropdown-link">Application en Pascal</a></li>
+              <li><a href="#Projets"  class="f-header__dropdown-link">Migration Office 365</a></li>
             </ul>
           </li>
           <li class="f-header__item"><a href="#contient" class="f-header__link">Contact</a></li>
@@ -74,7 +76,7 @@
           </li>
 
           <li class="f-header__item">
-            <a href="#0" target="_blank" class="f-header__link f-header__link--icon" aria-label="Instagram">
+            <a href="https://instagram.com/" target="_blank" class="f-header__link f-header__link--icon" aria-label="Instagram">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" class="icon" viewBox="0 0 512 512"><title>Mon instagram</title><path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path></svg>
               <span class="margin-left-xxs">Instagram</span>
             </a>
@@ -91,12 +93,12 @@
     </div>
   </header>
   <section id="accueil" class="diagonal-section-bottom acc">
-    <div class="container max-width-adaptive-sm padding-y-xxl">
+    <div class="container max-width-adaptive-sm padding-y-xl">
       <div class="text-center">  
         <div class="text-component">
-          <h1 class="text-shadow-sm text-xxxl"><em>Enzo PENISSON</em></h1>
+          <h1 class="text-shadow-sm text-xl"><em>Enzo PENISSON</em></h1>
           <br>
-          <p class="text-sm text-xxxl">Etudiant en informatique</p>
+          <p class="text-sm text-xl">Etudiant en informatique</p>
         </div>
     
         <div class="flex flex-wrap flex-center gap-sm">
@@ -111,18 +113,18 @@
 
   <section id="apropos" class="position-relative found">
     <div id="container"> 
-      <div class = "holder">
+      <div id = "Hleft">
           <img src="assets/img/photo.jpg" class="images">
       </div>
-      <div class = "holder">
-        <br>
+      <div id = "Hright">
         <span class="txt">
-        Bonjour,<br>
-        Je m'appelle Enzo, j'ai 19 ans, je suis en Bts Sio première année Option Slam (Solutions Logiciels et Applications Métiers), c'est-à-dire une orientation côté développement.<br>
-        J'ai conçu ce site pour avoir plus de visibilité pour la recherche de stage et un emploi dans l'avenir. Ce site résume mon parcours et les projets menés.<br>
-        <br>
-        Merci de votre attention. <br><br>
-        Enzo
+          Bonjour,<br>
+          Je m'appelle Enzo, j'ai 19 ans, je suis en Bts Sio première année Option Slam (Solutions Logiciels et Applications Métiers), c'est-à-dire une orientation côté développement.<br>
+          J'ai conçu ce site pour avoir plus de visibilité pour la recherche de stage et d'emploi dans le futur. Ce site résume mon parcours et les projets menés.<br>
+          Mon objectif est d'aller en école d'ingénieur après mon BTS SIO. Pour cela, je suis en parallèle des sessions de formation BTS-PREPA à l'ESAIP pendant mes vacances scolaires. 
+          <br>
+          Merci de votre attention. <br><br>
+          Enzo
       </span>
       </div>
      </div>  
@@ -139,8 +141,8 @@
       </div>
       <br>
       <p class="text-center text-shadow-sm course">
-        J'ai obtenu un bac général au <a href="https://jean-bodin.paysdelaloire.e-lyco.fr/" target="_blank">Lycée jean bodin</a> spécialité Mathématiques & Numérique et Sciences de l'Informatique option Mathématiques Expertes.
-        A présent je suis au lycée Chevrolier pour effectuer un BTS SIO. Afin de poursuivre en école d'ingénieur, je suis en parallèle des Sessions de formation BTS-PREPA à l'ESAIP pendant mes vacances scolaires. 
+        J'ai obtenu un bac général au <a href="https://jean-bodin.paysdelaloire.e-lyco.fr/" target="_blank">Lycée Jean Bodin</a> Spécialités Mathématiques & Numérique et Sciences de l'Informatique Option Mathématiques Expertes.
+        Actuelement je suis au lycée Chevrolier pour effectuer un BTS SIO. Afin de me préparer au marché du travail et de m’adapter aux évolutions technologiques : HTML, CSS, PHP, Cybersécurité.
         <br>
         J'ai pratiqué 5 ans de Tennis et remporté un tournoi puis pratiqué du football, futsall, ou encore judo. 
       </p>
@@ -153,17 +155,18 @@
       </div>
       <br>
       <p class="text-center text-shadow-sm course">
-        La Cybersécurité est un des bloc de l'enseignement et surtout une pratique important dans la vie d'un informaticien.<br>
-        Pour cela, j'utilise <a href="https://www.root-me.org/" targe="_blank">Root-me</a>, c'est une plateforme d'apprentissage à la sécurité informatique et au hacking. L'apprentissage se fait sous la forme de défis/challenges, on peut donc y connaître ses compétences et ses points faibles.
-        et voici le nombre de points que je possède (actualisé régulièrement):
+        La Cybersécurité est un des bloc de l'enseignement et surtout une pratique importante dans la vie d'un informaticien.<br>
+        Pour cela, j'utilise <a href="https://www.root-me.org/" target="_blank">Root-me</a>, c'est une plateforme d'apprentissage à la sécurité informatique et au hacking. L'apprentissage se fait sous la forme de défis/challenges, on peut donc y connaître ses compétences et ses points faibles.
+        Voici le nombre de points que je possède (actualisé régulièrement):
         <br>
         <br>
         <img src="assets/img/rootme.png" class="deco">
       </p>
       <br>&nbsp;<br>
       <p class="text-center text-shadow-sm course">
-        L'informatique étant une matière en perpétuelle évolution. Je me tiens à jour avec des outils informatique tel que Feedly qui récupère par les flux rss le contenu que je souhaite regarder. Je m'informe principalement par le biais de contenu sur la platforme youtube.
+        Je me tiens à jour avec des outils informatiques tel que <a href="https://feedly.com" target="_blank">Feedly</a> qui récupère par les flux rss le contenu que je souhaite regarder. Je m'informe principalement par le biais de contenus sur la plateforme <a href="https://youtube.com" target="_blank">youtube</a>.
       </p>
+      <p class="text-center text-shadow-sm course">De plus, j'adore apprendre de nouveau langage de programmation.</p>
       <br>&nbsp;<br>
     </div>
     <div id="container">
@@ -174,16 +177,16 @@
       </div>
       <br>
       <p class="text-center text-shadow-sm course">
-        La documentation, permet d'augmenter le savoir collectif de tous ceux avec qui vous travaillez. Elle est donc un moyen de se faire comprendre en équipe, en groupe ...
+        La documentation permet d'augmenter le savoir collectif de tous ceux avec qui vous travaillez. Elle est donc un moyen de se faire comprendre en équipe, en groupe ...
       </p>
       <br>&nbsp;<br>
       <p class="text-center text-shadow-sm course">
         Lors d'un projet, j'ai dû réaliser plusieurs cahiers de recettes sur la mise en place d'un cloud (Nextcloud).
-        voici donc les documents réalisés :<br>
+        Pour cela, je vous met à disposition les deux cahiers de recettes que j'ai effectués :<br><br>
       </p>
       <ul class="text-center text-shadow-sm course">
         <li>- <a href="assets/files/cahier de recette Nextcloud & fail2ban & sauvegarde.docx" download>cahier de recettes Nextcloud & fail2ban & sauvegarde.docx</a> </li>
-        <li>- <a href="assets/files/cahier de recette packet tracer.docx" download>cahier de recette packet tracer.docx</a> </li>
+        <li>- <a href="assets/files/cahier de recette packet tracer.docx" download>cahier de recettes packet tracer.docx</a> </li>
       </ul>
       <br>&nbsp;<br>
     </div>
@@ -191,55 +194,80 @@
 
   
 
-  <section id="Projets" class="position z-index-1" >
+  <section id="Projets" class="cartes position z-index-1" >
       <h1 class="text-center"><em>Mes projets</em></h1>
       <br>
-      <br><br>
-      <div class="contenir flex">
-        <a href="src/projet1.html" target="iframeProjet" class="">
-          <div class="item">
-            <p class="pjt">Mon Projet 1</p>
-          </div>
-        </a>
-        <br>&nbsp;<br>
-        <a href="src/projet2.html" target="iframeProjet" class="">
-          <div class="item">
-            <p class="pjt">Mon Projet 2</p>
-          </div>
-        </a>
-        <br>&nbsp;<br>
-        <a href="src/projet3.html" target="iframeProjet" class="">
-          <div class="item">
-            <p class="pjt">Mon Projet 3</p>
-          </div>
-        </a>
-      </div>
-      <br>&nbsp;<br>
-      <div class="selecteur2">
-            <div class="long" >
-              <iframe id="shape" class="long2" src="src/projet1.html" name="iframeProjet"  title="Iframe Projet" ></iframe>
+      <div class="row2">
+        <div class="column" id="space" onclick="downupP1()">
+          <div class="card"><img class="card__img" src="assets/img/spaceinvader.png" alt="Space Invader">
+            <div class="card__content">
+              <h1 class="card__header">Space Invader</h1>
+              <p class="card__text">Jeu Space Invader en <strong>python</strong> effectué en terminal. </p>
             </div>
+          </div>
+        </div>
+        <div class="column" onclick="downupP3()">
+          <div class="card"><img class="card__img" src="assets/img/wordp1.png" alt="Wordpress">
+            <div class="card__content">
+              <h1 class="card__header">Wordpress</h1>
+              <p class="card__text">Il s'agit d'un projet effectué en <strong>atelier de professionnalisation (BTS SIO)</strong> sur la découverte de WordPress et de ses plugins Woocommerce et Elementor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" onclick="downupP2()">
+          <div class="card"><img class="card__img" src="assets/img/loggf1024.jpg" alt="CPL">
+            <div class="card__content">
+              <h1 class="card__header">La Coopérative des Producteurs Légumiers la Rosee des Champs</h1>
+              <p class="card__text">Il s'agit ici de l'entreprise qui m'a accueilli pour mon stage de BTS SIO de première année d'une durée de 6 semaines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" onclick="downupP4()">
+          <div class="card"><img class="card__img" src="assets/img/Delphi.png" alt="Pascal">
+            <div class="card__content">
+              <h1 class="card__header">Application de gestion de tarif en Pascal</h1>
+              <p class="card__text">Il s'agit d'un projet effectué en <strong>stage de BTS SIO</strong>, Il m'a permis de découvrir le Pascal sur l'IDE Delphi Alexendria</p>
+            </div>
+          </div>
+        </div>
+        <div class="column" onclick="downupP5()">
+          <div class="card"><img class="card__img" src="assets/img/off.png" alt="Office-365">
+            <div class="card__content">
+              <h1 class="card__header">Migration Office 365</h1>
+              <p class="card__text">La migration sur <strong>Office 365</strong>, a fait parti du projet de mon stage de BTS SIO.</p>
+            </div>
+          </div>
+        </div>
       </div>
+  </section>
 
-        
+  <section class="derriere" id="lefond" onclick="hidde()">
+  
+  </section>
+
+  <section id="Popup" class="Apparaitre">
+        <div class="iswhite" id="pop">
+          <div onclick="hidde()" class="close"><span class="fermera">×</span></div>
+          <iframe id="myframe" src="src/projet1.html" width="100%" height="100%"></iframe>
+        </div>
   </section>
 
   <section id="contient" class="" >
     <div class="container">
-      <form method="post" action="">
+      <form method="post" action="mail.php">
         <div class="row">
-            <h2 class="text-center">Contact</h2>
+            <h2 class="text-center"><br>Contact</h2>
         </div>
         <div class="row input-container">
             <div class="col-xs-12">
               <div class="styled-input wide">
-                <input type="text" required />
+                <input type="text" name="nom" required />
                 <label>Nom</label> 
               </div>
             </div>
             <div class="col-xs-12">
               <div class="styled-input wide">
-                <input type="email" required />
+                <input type="email" name="mail" required />
                 <label>Email</label> 
               </div>
             </div>
